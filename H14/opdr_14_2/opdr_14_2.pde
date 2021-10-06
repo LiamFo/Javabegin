@@ -1,10 +1,10 @@
 PImage img;
 
 void setup(){
-  size(400,400);
-  img = loadImage(ïmages/a");
+  size(700,400);
+  img = loadImage("images/placeholder.png");
 }
 
 void draw(){
-  image =(img,0,0);
+  image(img,0,0,width,height);
 }
